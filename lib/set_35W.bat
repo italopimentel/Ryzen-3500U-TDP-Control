@@ -13,7 +13,7 @@ goto :eof
 :payload
 SET CurrentDir="%~dp0"
 cd %CurrentDir%
-ryzenadj --stapm-limit=35000 --fast-limit=35000 --slow-limit=35000 --tctl-temp=90
+ryzenadj --stapm-limit=35000 --fast-limit=35000 --slow-limit=35000 --tctl-temp=90 --vrm-current=100000
 
 echo.
 echo...The Ryzen 3500U has been set up to 35W!
